@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A43DED531CCCC8A500D80E06 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A43DED521CCCC8A500D80E06 /* AppDelegate.swift */; };
+		A43DED551CCCC8A500D80E06 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A43DED541CCCC8A500D80E06 /* ViewController.swift */; };
+		A43DED581CCCC8A500D80E06 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A43DED561CCCC8A500D80E06 /* Main.storyboard */; };
+		A43DED5A1CCCC8A600D80E06 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A43DED591CCCC8A600D80E06 /* Assets.xcassets */; };
+		A43DED5D1CCCC8A600D80E06 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A43DED5B1CCCC8A600D80E06 /* LaunchScreen.storyboard */; };
+		A43DED681CCCC8A600D80E06 /* BahamaAirTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A43DED671CCCC8A600D80E06 /* BahamaAirTests.swift */; };
+		A43DED731CCCC8A600D80E06 /* BahamaAirUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A43DED721CCCC8A600D80E06 /* BahamaAirUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A43DED641CCCC8A600D80E06 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A43DED471CCCC8A500D80E06 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A43DED4E1CCCC8A500D80E06;
+			remoteInfo = BahamaAir;
+		};
+		A43DED6F1CCCC8A600D80E06 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A43DED471CCCC8A500D80E06 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A43DED4E1CCCC8A500D80E06;
+			remoteInfo = BahamaAir;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A43DED4F1CCCC8A500D80E06 /* BahamaAir.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BahamaAir.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A43DED521CCCC8A500D80E06 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A43DED541CCCC8A500D80E06 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A43DED571CCCC8A500D80E06 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A43DED591CCCC8A600D80E06 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A43DED5C1CCCC8A600D80E06 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A43DED5E1CCCC8A600D80E06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A43DED631CCCC8A600D80E06 /* BahamaAirTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BahamaAirTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A43DED671CCCC8A600D80E06 /* BahamaAirTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BahamaAirTests.swift; sourceTree = "<group>"; };
+		A43DED691CCCC8A600D80E06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A43DED6E1CCCC8A600D80E06 /* BahamaAirUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BahamaAirUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A43DED721CCCC8A600D80E06 /* BahamaAirUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BahamaAirUITests.swift; sourceTree = "<group>"; };
+		A43DED741CCCC8A600D80E06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A43DED4C1CCCC8A500D80E06 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A43DED601CCCC8A600D80E06 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A43DED6B1CCCC8A600D80E06 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A43DED461CCCC8A500D80E06 = {
+			isa = PBXGroup;
+			children = (
+				A43DED511CCCC8A500D80E06 /* BahamaAir */,
+				A43DED661CCCC8A600D80E06 /* BahamaAirTests */,
+				A43DED711CCCC8A600D80E06 /* BahamaAirUITests */,
+				A43DED501CCCC8A500D80E06 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A43DED501CCCC8A500D80E06 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A43DED4F1CCCC8A500D80E06 /* BahamaAir.app */,
+				A43DED631CCCC8A600D80E06 /* BahamaAirTests.xctest */,
+				A43DED6E1CCCC8A600D80E06 /* BahamaAirUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A43DED511CCCC8A500D80E06 /* BahamaAir */ = {
+			isa = PBXGroup;
+			children = (
+				A43DED521CCCC8A500D80E06 /* AppDelegate.swift */,
+				A43DED541CCCC8A500D80E06 /* ViewController.swift */,
+				A43DED561CCCC8A500D80E06 /* Main.storyboard */,
+				A43DED591CCCC8A600D80E06 /* Assets.xcassets */,
+				A43DED5B1CCCC8A600D80E06 /* LaunchScreen.storyboard */,
+				A43DED5E1CCCC8A600D80E06 /* Info.plist */,
+			);
+			path = BahamaAir;
+			sourceTree = "<group>";
+		};
+		A43DED661CCCC8A600D80E06 /* BahamaAirTests */ = {
+			isa = PBXGroup;
+			children = (
+				A43DED671CCCC8A600D80E06 /* BahamaAirTests.swift */,
+				A43DED691CCCC8A600D80E06 /* Info.plist */,
+			);
+			path = BahamaAirTests;
+			sourceTree = "<group>";
+		};
+		A43DED711CCCC8A600D80E06 /* BahamaAirUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A43DED721CCCC8A600D80E06 /* BahamaAirUITests.swift */,
+				A43DED741CCCC8A600D80E06 /* Info.plist */,
+			);
+			path = BahamaAirUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A43DED4E1CCCC8A500D80E06 /* BahamaAir */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A43DED771CCCC8A600D80E06 /* Build configuration list for PBXNativeTarget "BahamaAir" */;
+			buildPhases = (
+				A43DED4B1CCCC8A500D80E06 /* Sources */,
+				A43DED4C1CCCC8A500D80E06 /* Frameworks */,
+				A43DED4D1CCCC8A500D80E06 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BahamaAir;
+			productName = BahamaAir;
+			productReference = A43DED4F1CCCC8A500D80E06 /* BahamaAir.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A43DED621CCCC8A600D80E06 /* BahamaAirTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A43DED7A1CCCC8A600D80E06 /* Build configuration list for PBXNativeTarget "BahamaAirTests" */;
+			buildPhases = (
+				A43DED5F1CCCC8A600D80E06 /* Sources */,
+				A43DED601CCCC8A600D80E06 /* Frameworks */,
+				A43DED611CCCC8A600D80E06 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A43DED651CCCC8A600D80E06 /* PBXTargetDependency */,
+			);
+			name = BahamaAirTests;
+			productName = BahamaAirTests;
+			productReference = A43DED631CCCC8A600D80E06 /* BahamaAirTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A43DED6D1CCCC8A600D80E06 /* BahamaAirUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A43DED7D1CCCC8A600D80E06 /* Build configuration list for PBXNativeTarget "BahamaAirUITests" */;
+			buildPhases = (
+				A43DED6A1CCCC8A600D80E06 /* Sources */,
+				A43DED6B1CCCC8A600D80E06 /* Frameworks */,
+				A43DED6C1CCCC8A600D80E06 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A43DED701CCCC8A600D80E06 /* PBXTargetDependency */,
+			);
+			name = BahamaAirUITests;
+			productName = BahamaAirUITests;
+			productReference = A43DED6E1CCCC8A600D80E06 /* BahamaAirUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A43DED471CCCC8A500D80E06 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = REactivity;
+				TargetAttributes = {
+					A43DED4E1CCCC8A500D80E06 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					A43DED621CCCC8A600D80E06 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = A43DED4E1CCCC8A500D80E06;
+					};
+					A43DED6D1CCCC8A600D80E06 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = A43DED4E1CCCC8A500D80E06;
+					};
+				};
+			};
+			buildConfigurationList = A43DED4A1CCCC8A500D80E06 /* Build configuration list for PBXProject "BahamaAir" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A43DED461CCCC8A500D80E06;
+			productRefGroup = A43DED501CCCC8A500D80E06 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A43DED4E1CCCC8A500D80E06 /* BahamaAir */,
+				A43DED621CCCC8A600D80E06 /* BahamaAirTests */,
+				A43DED6D1CCCC8A600D80E06 /* BahamaAirUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A43DED4D1CCCC8A500D80E06 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A43DED5D1CCCC8A600D80E06 /* LaunchScreen.storyboard in Resources */,
+				A43DED5A1CCCC8A600D80E06 /* Assets.xcassets in Resources */,
+				A43DED581CCCC8A500D80E06 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A43DED611CCCC8A600D80E06 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A43DED6C1CCCC8A600D80E06 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A43DED4B1CCCC8A500D80E06 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A43DED551CCCC8A500D80E06 /* ViewController.swift in Sources */,
+				A43DED531CCCC8A500D80E06 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A43DED5F1CCCC8A600D80E06 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A43DED681CCCC8A600D80E06 /* BahamaAirTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A43DED6A1CCCC8A600D80E06 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A43DED731CCCC8A600D80E06 /* BahamaAirUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A43DED651CCCC8A600D80E06 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A43DED4E1CCCC8A500D80E06 /* BahamaAir */;
+			targetProxy = A43DED641CCCC8A600D80E06 /* PBXContainerItemProxy */;
+		};
+		A43DED701CCCC8A600D80E06 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A43DED4E1CCCC8A500D80E06 /* BahamaAir */;
+			targetProxy = A43DED6F1CCCC8A600D80E06 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A43DED561CCCC8A500D80E06 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A43DED571CCCC8A500D80E06 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A43DED5B1CCCC8A600D80E06 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A43DED5C1CCCC8A600D80E06 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A43DED751CCCC8A600D80E06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A43DED761CCCC8A600D80E06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A43DED781CCCC8A600D80E06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BahamaAir/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nl.reactivity.BahamaAir;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A43DED791CCCC8A600D80E06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BahamaAir/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nl.reactivity.BahamaAir;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A43DED7B1CCCC8A600D80E06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BahamaAirTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nl.reactivity.BahamaAirTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BahamaAir.app/BahamaAir";
+			};
+			name = Debug;
+		};
+		A43DED7C1CCCC8A600D80E06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BahamaAirTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nl.reactivity.BahamaAirTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BahamaAir.app/BahamaAir";
+			};
+			name = Release;
+		};
+		A43DED7E1CCCC8A600D80E06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BahamaAirUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nl.reactivity.BahamaAirUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BahamaAir;
+			};
+			name = Debug;
+		};
+		A43DED7F1CCCC8A600D80E06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BahamaAirUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nl.reactivity.BahamaAirUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BahamaAir;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A43DED4A1CCCC8A500D80E06 /* Build configuration list for PBXProject "BahamaAir" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A43DED751CCCC8A600D80E06 /* Debug */,
+				A43DED761CCCC8A600D80E06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A43DED771CCCC8A600D80E06 /* Build configuration list for PBXNativeTarget "BahamaAir" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A43DED781CCCC8A600D80E06 /* Debug */,
+				A43DED791CCCC8A600D80E06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A43DED7A1CCCC8A600D80E06 /* Build configuration list for PBXNativeTarget "BahamaAirTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A43DED7B1CCCC8A600D80E06 /* Debug */,
+				A43DED7C1CCCC8A600D80E06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A43DED7D1CCCC8A600D80E06 /* Build configuration list for PBXNativeTarget "BahamaAirUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A43DED7E1CCCC8A600D80E06 /* Debug */,
+				A43DED7F1CCCC8A600D80E06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A43DED471CCCC8A500D80E06 /* Project object */;
+}
